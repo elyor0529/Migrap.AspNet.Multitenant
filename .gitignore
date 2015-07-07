@@ -22,8 +22,10 @@ bld/
 [Bb]in/
 [Oo]bj/
 
-# Visual Studo 2015 cache/options directory
+# ASP.NET 5
 .vs/
+project.lock.json
+artifacts/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
