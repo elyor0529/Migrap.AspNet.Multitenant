@@ -1,13 +1,13 @@
 ﻿{
-  "version": "1.0.0-beta5",
+  "version": "1.0.0-beta6",
   "compilationOptions": {
     "warningsAsErrors": true
   },
   "dependencies": {
-    "Microsoft.AspNet.Http": "1.0.0-beta5",
-    "Microsoft.AspNet.Http.Extensions": "1.0.0-beta5",
-    "Microsoft.Framework.Logging": "1.0.0-beta5",
-    "Microsoft.Framework.DependencyInjection": "1.0.0-beta5"
+    "Microsoft.AspNet.Http": "1.0.0-beta6",
+    "Microsoft.AspNet.Http.Extensions": "1.0.0-beta6",
+    "Microsoft.Framework.Logging": "1.0.0-beta6",
+    "Microsoft.Framework.DependencyInjection": "1.0.0-beta6"
   },
   "frameworks": {
     "dnx451": { }
