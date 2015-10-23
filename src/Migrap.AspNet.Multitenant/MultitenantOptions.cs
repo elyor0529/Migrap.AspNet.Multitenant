@@ -1,4 +1,4 @@
-﻿namespace Migrap.AspNet.Multitenant {
-    public class MultitenantOptions {
-    }
-}
+﻿//namespace Migrap.AspNet.Multitenant {
+//    public class MultitenantOptions {
+//    }
+//}

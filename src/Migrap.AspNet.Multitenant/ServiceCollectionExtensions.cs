@@ -13,7 +13,7 @@ namespace Migrap.AspNet.Multitenant {
         public static IServiceCollection AddMultitenant(this IServiceCollection services, Func<ITenantProviderExtension, Func<TypeInfo>> provider) {
             var descriptor = new ServiceDescriptor(typeof(ITenantProvider), provider(null)().AsType(), ServiceLifetime.Scoped);
 
-            services.TryAdd(descriptor);
+            services.Add(descriptor);
 
             return services;
         }        

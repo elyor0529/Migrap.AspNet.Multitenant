@@ -3,7 +3,7 @@
 namespace Migrap.AspNet.Multitenant {
     public static class BuilderExtensions {
         public static IApplicationBuilder UseMultitenant(this IApplicationBuilder builder) {
-            return builder.UseMiddleware<MultitenantMiddleware>();
+            return builder.UseMiddleware<MultitenantMiddleware>();            
         }
 
 #if OPTIONS
