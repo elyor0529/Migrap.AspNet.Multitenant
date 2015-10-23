@@ -19,5 +19,5 @@ namespace Migrap.AspNet.Multitenant {
         public static Type Tenant(this HttpContext context) {
             return typeof(ITenantFeature);
         }
-    }
+    }    
 }
